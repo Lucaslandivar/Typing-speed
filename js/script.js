@@ -16,6 +16,7 @@ const textos = [
 function novoTexto() {
     const index = Math.floor(Math.random() * textos.length);
     texto.textContent = textos[index];
+    entrada.focus();
 }
 
 function atualizarTeste() {
@@ -61,8 +62,10 @@ function reiniciarTeste() {
     entrada.value = "";
     resultado.textContent = "";
     novoTexto();
+    entrada.focus();
     localStorage.setItem("testeEmAndamento", false);
     historico.innerHTML = "";
+
 }
 
 function alternarTema() {

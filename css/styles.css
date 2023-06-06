@@ -82,3 +82,49 @@ button:hover {
 .escuro #texto {
     color: #333;
 }
+/* Responsividade */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    .instructions {
+      font-size: 1rem;
+    }
+  
+    #texto,
+    #entrada {
+      font-size: 1rem;
+      width: 500px;
+    }
+  
+    #resultado {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    /* Styles for screens up to 400px wide */
+    h1 {
+      font-size: 1.6rem;
+    }
+  
+    .instructions {
+      font-size: 0.9rem;
+    }
+  
+    #texto,
+    #entrada {
+      font-size: 0.9rem;
+      padding: 0.6rem;
+    }
+  
+    #resultado {
+      font-size: 0.9rem;
+    }
+  }
+  
