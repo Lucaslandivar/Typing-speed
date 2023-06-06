@@ -6,11 +6,11 @@ const historico = document.querySelector("#historico");
 const alternarTemaBtn = document.querySelector("#alternarTema");
 
 const textos = [
-    "Exemplo de texto para digitar.",
-    "Outro exemplo de texto para digitar.",
-    "Mais um exemplo de texto para digitar.",
-    "Digite isso.",
-    "Você pode digitar isso aqui.",
+    "The quick brown fox jumps over the lazy dog.",
+    "Practice makes perfect.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "The early bird catches the worm.",
+    "Type with purpose, not just speed.",
 ];
 
 function novoTexto() {
