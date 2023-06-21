@@ -1,4 +1,4 @@
-<h1Typing Speed JavaScript</h1>
+<h1>Typing Speed JavaScript</h1>
   <img src="img/Captura de Tela (12).png">
 
 <h2>Project Deploy</h2>
